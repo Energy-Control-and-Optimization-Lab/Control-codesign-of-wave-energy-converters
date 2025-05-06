@@ -1,4 +1,4 @@
-Control Strategies for Maximizing Energy Absorption
+#Control Strategies for Maximizing Energy Absorption
 This project implements and compares multiple control strategies designed to enhance the energy absorption of a point absorber Wave Energy Converter (WEC) simulated in WEC-Sim. The focus is on optimizing the damping force applied by a direct-drive Power Take-Off (PTO) system using feedback control laws based on body heave motion. The control strategies implemented are:
 
 1. Proportional-Integral (PI) Controller
