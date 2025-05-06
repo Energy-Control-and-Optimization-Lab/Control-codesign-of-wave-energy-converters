@@ -7,7 +7,6 @@ A robust nonlinear control approach designed to force the system's state traject
 2. Tanh-Based SMC (SMC-Tanh)
 This version of SMC replaces the sign function with a smooth hyperbolic tangent function (tanh) to mitigate chattering while preserving robustness. It ensures a continuous control signal, which is more realistic for physical PTO actuators and improves numerical stability during simulation.
 
-Each controller dynamically adjusts the PTO damping based on the system's velocity and estimated dynamics, aiming to synchronize the device motion with incoming wave excitation and maximize energy extraction.
 
 3. Proportional-Integral (PI) Controller
 A classical feedback controller that applies a PTO force proportional to the heave velocity (P-term) and the integral of velocity error (I-term). It provides a baseline for comparison against advanced nonlinear methods. Although simple and robust, its ability to extract energy is limited under highly nonlinear sea states.
@@ -16,6 +15,7 @@ A classical feedback controller that applies a PTO force proportional to the hea
 
 3. Singular Arc Solution
 An improved variant of SMC that modifies the sliding surface and control law to avoid singularities and reduce chattering. It introduces a correction term to ensure well-behaved dynamics even near the origin of the phase plane, making it more suitable for low-velocity operation.
+Each controller dynamically adjusts the PTO damping based on the system's velocity and estimated dynamics, aiming to synchronize the device motion with incoming wave excitation and maximize energy extraction.
 
 # 📈 The performance of each controller is compared based on:
 
