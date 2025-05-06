@@ -49,7 +49,7 @@ WEC-Sim toolbox
 
 Hydrodynamic coefficients file (generated via NEMOH, Capytaine, or WAMIT)
 
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/Energy-Control-and-Optimization-Lab/Control-codesign-of-wave-energy-converters.git
 cd your-repo-name
 
 # Set Up WEC-Sim
