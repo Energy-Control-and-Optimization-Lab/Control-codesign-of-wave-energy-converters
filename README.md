@@ -51,3 +51,25 @@ Hydrodynamic coefficients file (generated via NEMOH, Capytaine, or WAMIT)
 
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
+
+# Set Up WEC-Sim
+
+Ensure the WEC-Sim toolbox is on your MATLAB path:
+
+addpath('path_to_wecSim');
+wecSim
+
+# Configure Simulation
+
+Open and edit wecSimInputFile.m to:
+
+Select the desired controller
+
+Verify .h5 and .stl file paths
+
+Choose wave type (e.g., irregular with 'JS' for JONSWAP)
+
+# Run the Simulation
+
+In MATLAB:
+wecSim
