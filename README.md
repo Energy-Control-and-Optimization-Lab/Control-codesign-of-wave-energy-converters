@@ -85,25 +85,12 @@ Simulation results (heave motion, PTO force, absorbed energy, etc.) will be save
 
 ---
 
-## 📚 Citation
 
-If you use this work in your research, please cite the associated paper (coming soon).
 
 ---
 
-## 👥 Authors
-
-- Horia Ameen  
-- Energy Control and Optimization Lab
-
----
-
-## 📜 License
-
-This project is released under the MIT License. Hydrodynamic data and geometries used here are for research purposes and may have different license terms.
 
 ---
 
 ## 📬 Contact
-
-For questions or collaboration requests, please reach out via [GitHub Issues](https://github.com/Energy-Control-and-Optimization-Lab/Control-codesign-of-wave-energy-converters/issues).
+Arezoo.Hasankhani@unh.edu
