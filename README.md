@@ -8,10 +8,8 @@ This repository contains a **WEC-Sim-based simulation framework** to evaluate an
 
 The simulation investigates the following control strategies:
 
-- **PI Controller**: A standard proportional-integral controller for baseline comparison.
 - **SMC (Sliding Mode Controller)**: A robust nonlinear controller designed to handle system uncertainties.
-- **SMC-Singular**: A modified SMC that incorporates singularity-based logic to improve transient behavior.
-- **SMC-Tanh**: A smoothed SMC variant using hyperbolic tangent functions to reduce control chattering.
+
 
 ---
 
