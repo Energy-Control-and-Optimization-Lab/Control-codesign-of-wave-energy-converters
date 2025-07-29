@@ -6,7 +6,7 @@ This repository contains a **WEC-Sim-based simulation framework** to evaluate an
 
 ## 🚀 Overview
 
-The simulation investigates the following control strategies:
+The simulation investigates the following control strategy:
 
 - **SMC (Sliding Mode Controller)**: A robust nonlinear controller designed to handle system uncertainties.
 
@@ -60,7 +60,6 @@ addpath('path_to_WEC-Sim')
 
 Open and edit `wecSimInputFile.m`:
 
-- Select the desired controller (e.g., `controllerType = 'SMC'`)
 - Ensure correct paths to `.h5` and `.stl` files
 - Choose wave type and characteristics (e.g., JONSWAP spectrum)
 
