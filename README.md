@@ -8,7 +8,7 @@ This repository contains a **WEC-Sim-based simulation framework** to evaluate an
 
 The simulation investigates the following control strategy:
 
-- **SMC (Sliding Mode Controller)**: A robust nonlinear controller designed to handle system uncertainties.
+- **ST-SMC (Super Twisitng Sliding Mode Controller)**: A robust nonlinear controller designed to handle system uncertainties.
 
 
 ---
@@ -18,7 +18,7 @@ The simulation investigates the following control strategy:
 ```
 .
 ├── wecSimInputFile.m            # Main configuration file for WEC-Sim
-├── ellipsoidSMC.slx             # Simulink model containing WEC and controller logic
+├── ellipsoidST-SMC.slx             # Simulink model containing WEC and controller logic
 ├── hydroData/
 │   └── ellipsoid.h5             # Hydrodynamic coefficients file (from BEM tools)
 ├── geometry/
