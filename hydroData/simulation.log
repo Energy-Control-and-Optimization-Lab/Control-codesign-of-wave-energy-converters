@@ -1,0 +1,21 @@
+
+WEC-Sim Input From Standard wecSimInputFile.m Of Case Directory... 
+{Error using <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run', 'C:\Program Files\Matlab\R2024a\toolbox\matlab\lang\run.m', 74)" style="font-weight:bold">run</a> (<a href="matlab: opentoline('C:\Program Files\Matlab\R2024a\toolbox\matlab\lang\run.m',74,0)">line 74</a>)
+wecSimInputFile not found.
+
+Error in <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('initializeWecSim', 'C:\Users\um1023\Documents\WEC-Sim\source\functions\initializeWecSim.m', 62)" style="font-weight:bold">initializeWecSim</a> (<a href="matlab: opentoline('C:\Users\um1023\Documents\WEC-Sim\source\functions\initializeWecSim.m',62,0)">line 62</a>)
+    run('wecSimInputFile');
+
+Error in <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run', 'C:\Program Files\Matlab\R2024a\toolbox\matlab\lang\run.m', 112)" style="font-weight:bold">run</a> (<a href="matlab: opentoline('C:\Program Files\Matlab\R2024a\toolbox\matlab\lang\run.m',112,0)">line 112</a>)
+evalin('caller', strcat(scriptStem, ';'));
+
+Error in <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('wecSim', 'C:\Users\um1023\Documents\WEC-Sim\source\wecSim.m', 43)" style="font-weight:bold">wecSim</a> (<a href="matlab: opentoline('C:\Users\um1023\Documents\WEC-Sim\source\wecSim.m',43,0)">line 43</a>)
+run('initializeWecSim');
+} 
+cd('C:\Users\um1023\Documents\SMC-Tanh\RegularCIC_SMCcontroller')
+wecSim
+WEC-Sim: An open-source code for simulating wave energy converters
+Version: 6.0
+
+Initializing the Simulation Class...
+	Case Dir: C:\Users\um1023\Documents\SMC-Tanh\RegularCIC_SMCcontroller 
