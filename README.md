@@ -34,7 +34,7 @@ Ensure the following software/tools are installed:
 
 - MATLAB (R2020a or later)
 - Simulink
-- [WEC-Sim Toolbox]([https://github.com/WEC-Sim/WEC-Sim](https://wec-sim.github.io/WEC-Sim/main/user/getting_started.html))
+- [WEC-Sim Toolbox]https://wec-sim.github.io/WEC-Sim/main/user/getting_started.html
 - Hydrodynamic coefficients file (from NEMOH, Capytaine, or WAMIT)
 
 ---
