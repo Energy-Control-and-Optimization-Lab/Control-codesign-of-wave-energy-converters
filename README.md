@@ -64,6 +64,7 @@ Local copy of WEC-Sim can easily be updated using following command​
 In MATLAB, add WEC-Sim to your path:
 
 cd('C:\Users\um1023\Documents\WEC-Sim')
+
 addWecSimSource
 ```
 
