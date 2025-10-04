@@ -41,7 +41,8 @@ Ensure the following software/tools are installed:
 
 ## 🛠️ How to Run
 
-### 1. Clone the Repository
+### 1. Download WECSIM
+https://wec-sim.github.io/WEC-Sim/main/user/getting_started.html
 
 ```bash
 git clone https://github.com/Energy-Control-and-Optimization-Lab/Control-codesign-of-wave-energy-converters.git
@@ -52,8 +53,8 @@ cd Control-codesign-of-wave-energy-converters
 
 In MATLAB, add WEC-Sim to your path:
 
-```matlab
-addpath('path_to_WEC-Sim')
+cd('C:\Users\um1023\Documents\WEC-Sim')
+addWecSimSource
 ```
 
 ### 3. Configure Simulation
