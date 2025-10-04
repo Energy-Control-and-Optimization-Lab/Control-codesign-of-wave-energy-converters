@@ -66,7 +66,9 @@ In MATLAB, add WEC-Sim to your path:
 cd('C:\Users\um1023\Documents\WEC-Sim')
 
 addWecSimSource
-```
+
+### 3. Run Simulation
+
 
 ### 3. Download WECSIM
 
