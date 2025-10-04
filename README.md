@@ -69,7 +69,11 @@ addWecSimSource
 
 ### 3. Run Simulation
 Download files in following link
-
+https://github.com/Energy-Control-and-Optimization-Lab/Control-codesign-of-wave-energy-converters/tree/main
+Place the downloaded simulation in the folder of WECSIM
+open maltab go to the directory of simulation folder
+cd('C:\ SimulationFolder')
+Change the path according to the location of your system for Geometry file and hydrodynamic file in wcsiminputfile
 
 ---
 
