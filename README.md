@@ -68,7 +68,7 @@ cd('C:\Users\um1023\Documents\WEC-Sim')
 addWecSimSource
 ```
 
-### 3. Configure Simulation
+### 3. Run Simulation
 
 Open and edit `wecSimInputFile.m`:
 
