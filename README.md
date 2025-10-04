@@ -68,17 +68,8 @@ cd('C:\Users\um1023\Documents\WEC-Sim')
 addWecSimSource
 
 ### 3. Run Simulation
+Download files in following link
 
-
-### 3. Download WECSIM
-
-
-## 📈 Output Data
-
-- Time series of body motion
-- PTO force and displacement
-- Instantaneous and total absorbed power
-- Plots and data files for comparison across controllers
 
 ---
 
