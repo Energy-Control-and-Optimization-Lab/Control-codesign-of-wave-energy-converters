@@ -68,22 +68,8 @@ cd('C:\Users\um1023\Documents\WEC-Sim')
 addWecSimSource
 ```
 
-### 3. Run Simulation
+## 3. Run Simulation
 
-Open and edit `wecSimInputFile.m`:
-
-- Ensure correct paths to `.h5` and `.stl` files
-- Choose wave type and characteristics (e.g., JONSWAP spectrum)
-
-### 4. Run the Simulation
-
-```matlab
-wecSim
-```
-
-Simulation results (heave motion, PTO force, absorbed energy, etc.) will be saved in the `Results/` folder.
-
----
 
 ## 📈 Output Data
 
