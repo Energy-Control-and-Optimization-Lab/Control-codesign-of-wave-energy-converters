@@ -73,8 +73,9 @@ https://github.com/Energy-Control-and-Optimization-Lab/Control-codesign-of-wave-
 Place the downloaded simulation in the folder of WECSIM
 open maltab go to the directory of simulation folder
 cd('C:\ SimulationFolder')
-Change the path according to the location of your system for Geometry file and hydrodynamic file in wcsiminputfile
+Change the path according to the location of your system for Geometry file and hydrodynamic file in wcsiminputfile following lines of codes to be changed according to location in your computer
 body(1).geometryFile = 'geometry/elipsoid.stl' ;
+body(1) = bodyClass('C:/Users/um1023/Documents/ST-SMC/RegularCIC_SMCcontroller/hydroData/ellipsoid.h5');
 
 ---
 
