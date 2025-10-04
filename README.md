@@ -44,10 +44,20 @@ Ensure the following software/tools are installed:
 ### 1. Download WECSIM
 https://wec-sim.github.io/WEC-Sim/main/user/getting_started.html
 
-```bash
-git clone https://github.com/Energy-Control-and-Optimization-Lab/Control-codesign-of-wave-energy-converters.git
-cd Control-codesign-of-wave-energy-converters
-```
+ WEC-Sim users should clone WEC-Sim’s Github repository​
+
+Install GIT LFS Using Following Link​
+
+https://git-lfs.com/​
+
+After installation open git bash it will open a command window and run following commands to clone WEC-Sim​
+
+>> git lfs install​
+>> git clone https://github.com/WEC-Sim/WEC-Sim​
+
+Local copy of WEC-Sim can easily be updated using following command​
+
+>> git pull origin main
 
 ### 2. Set Up WEC-Sim
 
