@@ -82,6 +82,7 @@ Change the path according to the location of your system for Geometry file and h
 body(1).geometryFile = 'geometry/elipsoid.stl' ;
 
 body(1) = bodyClass('C:/Users/um1023/Documents/ST-SMC/RegularCIC_SMCcontroller/hydroData/ellipsoid.h5');
+RUN "wecSim"
 
 ## 📬 Contact
 Arezoo.Hasankhani@unh.edu
