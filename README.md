@@ -53,6 +53,7 @@ https://git-lfs.com/​
 After installation open git bash it will open a command window and run following commands to clone WEC-Sim​
 
 >> git lfs install​
+
 >> git clone https://github.com/WEC-Sim/WEC-Sim​
 
 Local copy of WEC-Sim can easily be updated using following command​
