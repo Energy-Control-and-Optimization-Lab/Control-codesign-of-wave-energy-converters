@@ -58,6 +58,14 @@ After installation open git bash it will open a command window and run following
 Local copy of WEC-Sim can easily be updated using following command​
 
 >> git pull origin main
+>> GiBash command for version 6 of Wecsim
+Using v6.0 version of WECSIM​
+
+$ cd C:/Users/um1023/Documents/WEC-Sim​
+
+$ git fetch --all --tags​
+
+$ git checkout v6.0
 
 ### 2. Set Up WEC-Sim
 
